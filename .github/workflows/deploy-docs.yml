@@ -48,4 +48,5 @@ jobs:
         with:
           # 部署文档
           branch: gh-pages
-          folder: src\.vuepress\dist
+          # linux 目录分割符是 /
+          folder: src/.vuepress/dist
