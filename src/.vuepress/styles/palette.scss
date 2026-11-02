@@ -1,5 +1,76 @@
-// you can change colors here
+// Anthropic 风格配色：暖米白背景 + 陶土橙主色
+// 对应 --vp-c-* CSS 变量，可按需单独覆盖
 
-// https://theme-hope.vuejs.press/guide/customize/effect.html#clear-effects
-$color-transition: 0s;
-$transform-transition: 0s;
+// 背景
+$vp-c-bg: (
+  light: #faf9f5,
+  dark: #1f1e1d,
+);
+$vp-c-bg-alt: (
+  light: #f0eee6,
+  dark: #262624,
+);
+$vp-c-bg-elv: (
+  light: #ffffff,
+  dark: #30302e,
+);
+// 导航栏底色（navbar 使用 --vp-c-bg-elv-soft）
+$vp-c-bg-elv-soft: (
+  light: rgb(250 249 245 / 90%),
+  dark: rgb(48 48 46 / 90%),
+);
+
+// 文字
+$vp-c-text: (
+  light: #191919,
+  dark: #f0eee6,
+);
+
+// 边框与分隔线
+$vp-c-border: (
+  light: #dad9d2,
+  dark: #3e3e3b,
+);
+$vp-c-divider: (
+  light: #e8e6de,
+  dark: #333330,
+);
+
+// 阴影
+$vp-c-shadow: (
+  light: rgb(25 25 25 / 8%),
+  dark: rgb(0 0 0 / 40%),
+);
+
+// 控件底色
+$vp-c-control: (
+  light: rgb(25 25 25 / 6%),
+  dark: rgb(240 238 230 / 8%),
+);
+$vp-c-control-hover: (
+  light: rgb(25 25 25 / 10%),
+  dark: rgb(240 238 230 / 12%),
+);
+$vp-c-control-disabled: (
+  light: #eae8e0,
+  dark: #383836,
+);
+
+// 主色（陶土橙）：直接覆盖，避免沿用 config.scss 中的 $theme-color
+$vp-c-accent: (
+  light: #b45a3c,
+  dark: #e29b80,
+);
+$vp-c-accent-bg: (
+  light: #cc785c,
+  dark: #c06b50,
+);
+$vp-c-accent-hover: (
+  light: #b05b3f,
+  dark: #d0866b,
+);
+$vp-c-accent-soft: (
+  light: rgb(204 120 92 / 14%),
+  dark: rgb(204 120 92 / 20%),
+);
+$vp-c-accent-text: #fffdf9;

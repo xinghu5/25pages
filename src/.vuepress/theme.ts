@@ -5,7 +5,7 @@ import sidebar from "./sidebar.js";
 
 export default hopeTheme({
   darkmode: "toggle",
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://xinghu5.github.io",
   navbarLayout: {
       start: ["Brand"],
       center: ["Links"],
@@ -16,9 +16,10 @@ export default hopeTheme({
     url: "/",
   },
 
-  logo: "book",
+  logo: "/assets/icon/logo.svg",
+  favicon: "/assets/icon/logo.svg",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repo: "xinghu5/25pages",
 
   docsDir: "src",
 

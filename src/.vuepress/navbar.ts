@@ -7,7 +7,7 @@ export default navbar([
     icon: "pen-to-square",
     prefix: "/pages/",
     children: [
-      { text: "不明飞行物", icon: "solar:ufo-bold", link: "Passages-02.md" }
+      { text: "不明飞行物", icon: "solar:ufo-bold", link: "Passage-02.md" }
     ]
   },
   {
